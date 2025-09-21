@@ -24,7 +24,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className="space-y-8">
+      <div className="space-y-8 mb-5">
 
       <ViewpointCardL texthead="sadssaddsa" des="dsasdadsasd" scr="/อะไหล่.jpg"/>
       <ViewpointCardL texthead="sadssaddsa" des="dsasdadsasd" scr="/อะไหล่.jpg"/>

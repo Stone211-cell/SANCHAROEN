@@ -6,7 +6,7 @@ export function CometCardDemo() {
     <CometCard>
       <button
         type="button"
-        className="my-13 flex w-90 cursor-pointer flex-col items-stretch rounded-[16px] border-0 bg-[#1F2121] p-2 saturate-0 md:my-20 md:p-4"
+        className="my-13 flex w-70 cursor-pointer flex-col items-stretch rounded-[16px] border-0 bg-[#1F2121] p-2 saturate-0 md:my-20 md:p-4 md:w-90"
         aria-label="View invite F7RA"
         style={{
           transformStyle: "preserve-3d",

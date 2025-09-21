@@ -7,7 +7,7 @@ import Image from "next/image";
 const Mapcontactdetail = () => {
   return (
     <div>
-      <div className="relative bg-gradient-to-b from-gray-400 from-gray-300">
+      <div className="relative bg-gradient-to-b ">
         <Image
           src="/อะไหล่.jpg"
           alt="สบู่มาดามเฮง "

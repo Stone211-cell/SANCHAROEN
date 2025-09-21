@@ -1,7 +1,16 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
+
+
+
+
+html,body {
+  scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* @custom-variant dark (&:is(.dark *)); */
 
 /* @theme inline {
   --color-background: var(--background);
@@ -10,7 +19,7 @@
   --font-mono: var(--font-geist-mono);
 } */
 
-@theme inline {
+/* @theme inline {
 
   --radius-sm: calc(var(--radius) - 4px);
 
@@ -222,4 +231,4 @@
   body {
     @apply bg-background text-foreground;
   }
-}
+} */

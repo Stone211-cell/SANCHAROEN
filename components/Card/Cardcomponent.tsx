@@ -9,7 +9,7 @@ type Viewpointtype = {
 };
 export const ViewpointCardL = ({ texthead, des, scr, cls,ty }: Viewpointtype) => {
   return (
-   <div className="mx-auto w-3/5">
+   <div className="mx-auto w-full md:w-3/5">
     <div
       className={`flex flex-col md:flex-row md:justify-center justify-start md:gap-6 p-3 md:p-6 rounded-2xl shadow-lg bg-white hover:shadow-2xl transition duration-300 ${cls}`}
     >
@@ -37,7 +37,7 @@ export const ViewpointCardL = ({ texthead, des, scr, cls,ty }: Viewpointtype) =>
 
 export const ViewpointCardR = ({ texthead, des, scr, cls,ty }: Viewpointtype) => {
   return (
-   <div className="mx-auto w-3/5">
+   <div className="mx-auto w-full md:w-3/5">
     
 
     <div
