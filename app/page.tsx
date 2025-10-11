@@ -16,11 +16,11 @@ const page = () => {
       </h2>
       <div className="mx-auto w-3/5">
         <div className="flex flex-col justify-center items-center md:flex-row">
-          <div>
+          <div className="mr-20">
             <CometCardDemo />
           </div>
 
-          <div className="flex-1 text-gray-800 text-start mx-20">
+          <div className="flex-1 text-gray-800 text-start ">
             <h2 className="text-3xl font-semibold">
               เครษฐกรณ์ ภูสิทธิ์คุณานนท์ (อาท){" "}
             </h2>
