@@ -1,6 +1,10 @@
-import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faLocationDot,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 import { ContactIcon } from "../Contacted/ContactIcon";
-import {  faLine } from "@fortawesome/free-brands-svg-icons";
+import { faLine } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -25,20 +29,13 @@ const Mapcontactdetail = () => {
           <div className="my-5">
             <h3 className=" text-5xl font-bold py-5">ตัวแทนจำหน่าย</h3>
             <p className="mt-2 text-sm">
-              เปิดรับตัวแทนทั่วประเทศ
-
-คุณภาพดี
-ส่งตรงเวลา
-ราคามิตรภาพ
+              เปิดรับตัวแทนทั่วประเทศ คุณภาพดี ส่งตรงเวลา ราคามิตรภาพ
             </p>
           </div>
 
           <div className="flex justify-center text-center ">
             <h2 className="text-md font-bold mt-5  text-black bg-yellow-500 rounded-2xl p-2 transition-transform duration-200 ease-in-out hover:scale-110 ">
-              <Link
-                href="#"
-                className="text-white"
-              >
+              <Link href="#" className="text-white">
                 เปิดแผนที่นำทาง
               </Link>
             </h2>
@@ -60,8 +57,10 @@ const Mapcontactdetail = () => {
             </div>
 
             <p>
-              บริษัท ............... จำกัด
-
+              บริษัท แสนเจริญ อินดัสทรีพาร์ท จำกัด <br />
+              182/25 หมู่ 1 ถ.วัดโพธิ์-บางใหญ่ ต.มะขามเตี้ย <br />
+              อ.เมืองสุราษฏร์ธานี จ.สุราษฎร์ธานี 84000 <br />
+              หมายเลขผู้เสียภาษี 0505566014912
             </p>
           </div>
 
@@ -72,8 +71,8 @@ const Mapcontactdetail = () => {
                   sizeicon="2x"
                   coloricon="yellow"
                   msg="โทรศัพท์สอบถาม"
-                  description="099999999999"
-              LINKBTN="tel:999999999999999"
+                  description="083-856-8880"
+                  LINKBTN="tel:0838568880"
                   icontype={faPhone}
                   classtype=""
                 />
@@ -82,27 +81,25 @@ const Mapcontactdetail = () => {
                 <ContactIcon
                   sizeicon="2x"
                   coloricon="yellow"
-                  msg="LINE ID"
-                  description="Line"
-                  LINKBTN="#"
-                  icontype={faLine}
+                  msg="ติดต่อสอบถาม"
+                  description="artthailand.m@gmail.com"
+                  LINKBTN="mailto:artthailand.m@gmail.com"
+                  icontype={faEnvelope}
                   classtype=""
                 />
               </span>
+
               <span>
                 <ContactIcon
                   sizeicon="2x"
-                   coloricon="yellow"
-                          msg="Facebook"
-                          description="ติดต่อสอบถาม"
-
-                          LINKBTN="#"
-                  classtype="pr-10"
+                  coloricon="yellow"
+                  msg="โทรศัพท์สอบถาม"
+                  description="063-220-2088"
+                  LINKBTN="tel:0632202088"
+                  icontype={faPhone}
+                  classtype=""
                 />
               </span>
-
-             
-
             </div>
           </div>
         </div>
