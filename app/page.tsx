@@ -14,43 +14,29 @@ const page = () => {
       <h2 className="text-3xl font-semibold mt-15">
         <TypewriterEffectSmoothDemo />
       </h2>
-      <div className="mx-auto w-3/5">
-        <div className="flex flex-col justify-center items-center md:flex-row">
-          <div className="mr-20">
+      <div className="mx-auto w-4/5 md:w-3/5">
+        <div className="flex flex-col md:flex-row items-center justify-center">
+          {/* Card ด้านซ้าย */}
+          <div className="mb-8 md:mb-0 md:mr-20">
             <CometCardDemo />
           </div>
-          {/* PC */}
-          <div className="hidden md:block flex-1 text-gray-800 text-start ">
-            <h2 className="text-3xl font-semibold">
-              เครษฐกรณ์ ภูสิทธิ์คุณานนท์ (อาท){" "}
+
+          {/* ข้อมูลผู้จัดการ */}
+          <div className="flex-1 text-gray-800 text-start">
+            <h2 className="text-2xl md:text-3xl font-semibold">
+              เครษฐกรณ์ ภูสิทธิ์คุณานนท์ (อาท)
             </h2>
             <p className="text-gray-400 text-sm">ผู้จัดการ</p>
-            <p className="text-gray-800 leading-relaxed text-md mt-5 mb-25">
+            <p className="text-gray-800 leading-relaxed text-base md:text-md mt-5 mb-10">
               ให้คำปรึกษา ออกแบบ ติดตั้งงานระบบลำเลียง จำหน่ายอะไหล่ part
               โรงงานสกัดน้ำมันปาล์ม โรงงานยางพารา จำหน่ายฉนวนกันความร้อน
               วัสดุทนไฟ ตลับลูกปืน เฟือง โซ่ลำเลียง สายพาน วัสดุ อุปกรณ์
               โรงงานอุตสาหกรรม <br />
-              Procurement-Import of all types of machinery and spare parts.
+              <span className="text-gray-600">
+                Procurement - Import of all types of machinery and spare parts.
+              </span>
             </p>
           </div>
-
-          {/* mobile */}
-
-          <div className="md:hidden block  flex-1 text-gray-800 text-start ">
-            <h2 className="text-3xl font-semibold">
-              เครษฐกรณ์ ภูสิทธิ์คุณานนท์ (อาท){" "}
-            </h2>
-            <p className="text-gray-400 text-sm">ผู้จัดการ</p>
-            <p className="text-gray-800 leading-relaxed text-md mt-5 mb-25">
-              ให้คำปรึกษา ออกแบบ ติดตั้งงานระบบลำเลียง จำหน่ายอะไหล่ part
-              โรงงานสกัดน้ำมันปาล์ม โรงงานยางพารา จำหน่ายฉนวนกันความร้อน
-              วัสดุทนไฟ ตลับลูกปืน เฟือง โซ่ลำเลียง สายพาน วัสดุ อุปกรณ์
-              โรงงานอุตสาหกรรม <br />
-              Procurement-Import of all types of machinery and spare parts.
-            </p>
-          </div>
-
-
         </div>
       </div>
 
